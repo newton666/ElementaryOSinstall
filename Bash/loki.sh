@@ -31,4 +31,6 @@ apt-get install -m vagrant virtualbox -y
 echo "Mkv merger by Bunkus"
 wget -O - http://www.bunkus.org/gpg-pub-moritzbunkus.txt | sudo apt-key add - 
 apt-get install mkvtoolnix mkvtoolnix-gui -y
+git clone https://github.com/zant95/elementary-dropbox .
+bash elementary-dropbox/loki_support.sh &
 exit 0
